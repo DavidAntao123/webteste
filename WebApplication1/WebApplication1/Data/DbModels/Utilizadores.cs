@@ -15,4 +15,8 @@ public class Utilizadores
     public string CodPostal { get; set; }   
     
     public string Pais { get; set; }
+    
+    public ICollection<Fotografias> ListaFoto { get; set; }
+    
+    public ICollection<Gostos> ListaGosto { get; set; }
 }
